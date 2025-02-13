@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PERSONAL BUCKET LIST</title>
+<style>
+body{
+font-family: 'Arial, sans-serif';
+    line-height: 1.4;
+    background: #f8f9fa;
+    color: #333;
+    padding: 0 1rem;
+}
+
+header {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: #f32509;
+    color:white ;
+}
+header h1 {
+    font-size: 3rem;
+}
+
+main {
+    margin: 1rem auto;
+    max-width: 400px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #0c44ffc9;
+    border-bottom: 5px solid #000000;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
+    color: yellow;
+}
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background:  #ff811b;
+    color: white;
+}
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    li {
+        font-size: 0.9rem;
+    }
+}
+</style>
+</head>
+<body>
+<header>
+        <h1>MY PERSONAL BUCKET LIST</h1>
+    </header>
+    <main>
+        <section>
+            <h2>GOALS TO ACHIVED :-</h2>
+            <ul>
+                <li>WEB DEVELOPER</li>
+                <li>TO DEVELOP PROBLEM SOLVING SKILLS</li>
+                <li>TO IMPROVE MY COMMUNICATION SKILLS</li>
+            </ul>
+        </section>
+        <section>
+            <h2>COMPLETED GOALS :-</h2>
+            <ul>
+                <li>LEARNED CORE JAVA</li>
+                <li>CLOUD COMPUTING WITH PYTHON</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>CREATED BY RAGHU RAM</p>
+    </footer>
+</body>
+</html>
